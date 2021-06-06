@@ -19,6 +19,7 @@ import DashboardSideBar from './DashboardSideBar';
 import { DashboardTitleTarget } from './DashboardTitle';
 import TradeManager from '../trading/TradeManager';
 import BackupCreate from '../backup/BackupCreate';
+import Pianpool from '../pianpool/Pianpool';
 
 const StyledRoot = styled(Flex)`
   height: 100%;
@@ -97,6 +98,9 @@ export default function Dashboard() {
           </Route>
           <Route path={`${path}/trade`}>
             <TradeManager />
+          </Route>
+          <Route path={`${path}/pianpool`}>
+            <Pianpool />
           </Route>
         </Switch>
       </StyledBody>

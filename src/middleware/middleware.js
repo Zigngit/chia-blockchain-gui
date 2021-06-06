@@ -80,8 +80,8 @@ const socketMiddleware = () => {
             socket !== null &&
             (socket.readyState == 0 || socket.readyState == 1)
           ) {
-            console.log('Already connected, not reconnecting.');
-            console.log(socket.readyState);
+            // console.log('Already connected, not reconnecting.');
+            // console.log(socket.readyState);
             return;
           }
           // connect to the remote host

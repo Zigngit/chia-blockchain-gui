@@ -44,6 +44,39 @@ export const setRewardTargets = (farmerTarget, poolTarget) => {
   };
 };
 
+export const getPianpoolSettings = () => {
+  return async (dispatch) => {
+    const { data } = await async_api(
+      dispatch,
+      farmerMessage({
+        command: 'get_pianpool_settings',
+      }),
+      false,
+    );
+
+    return data;
+  };
+};
+
+export const setPianpoolSettings = (enable, pianUrl, userName) => {
+  return async (dispatch) => {
+    const response = await async_api(
+      dispatch,
+      farmerMessage({
+        command: 'set_pianpool_settings',
+        data: {
+          enable: enable,
+          pian_url: pianUrl,
+          username: userName,
+        },
+      }),
+      false,
+    );
+
+    return response;
+  };
+};
+
 export const pingFarmer = () => {
   const action = farmerMessage();
   action.message.command = 'ping';
