@@ -590,6 +590,10 @@ msgstr "Seret dan lepas berkas cadangan anda"
 msgid "Edit"
 msgstr "Ubah"
 
+#: src/components/pianpool/Pianpool.tsx:85
+#~ msgid "Enable Pian Pool"
+#~ msgstr ""
+
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
 msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dompet Chia anda."
@@ -856,7 +860,7 @@ msgstr "Interval"
 msgid "K-Size"
 msgstr "Ukuran-K"
 
-#: src/components/dashboard/DashboardSideBar.tsx:27
+#: src/components/dashboard/DashboardSideBar.tsx:28
 msgid "Keys"
 msgstr "Keys"
 
@@ -1102,6 +1106,18 @@ msgstr "Perubahan Tertunda"
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "Pending Total Balance"
 msgstr "Proses Mengira Jumlah Saldo"
+
+#: src/components/dashboard/DashboardSideBar.tsx:27
+msgid "PianPool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:91
+msgid "Pianpool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:105
+msgid "Pianpool URL"
+msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:109
 msgid "Please add a trade pair"
@@ -1406,6 +1422,7 @@ msgid "Safe To Skip"
 msgstr "Langkah Tidak Wajib"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:105
+#: src/components/pianpool/Pianpool.tsx:110
 #: src/components/trading/CreateOffer.jsx:160
 msgid "Save"
 msgstr "Simpan"
@@ -1857,6 +1874,10 @@ msgstr "Diketahui"
 msgid "User Pubkey"
 msgstr "Pubkey User"
 
+#: src/components/pianpool/Pianpool.tsx:106
+msgid "Username"
+msgstr ""
+
 #: src/components/fullNode/FullNode.jsx:186
 msgid "VDF Sub Slot Iterations"
 msgstr "Iterasi VDF Sub Slot"
@@ -2039,6 +2060,10 @@ msgstr "tinggi:"
 msgid "not synced"
 msgstr "tidak sinkron"
 
+#: src/components/pianpool/Pianpool.tsx:113
+msgid "refresh"
+msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:17
 #: src/components/wallet/Wallets.tsx:100
 msgid "status:"
@@ -2053,6 +2078,10 @@ msgstr "sinkron"
 #: src/components/wallet/Wallets.tsx:105
 msgid "syncing"
 msgstr "sinkronisasi"
+
+#: src/components/pianpool/Pianpool.tsx:12
+#~ msgid "testpianpool"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"
