@@ -23,7 +23,7 @@ type FormData = {
     username: string;
 };
 
-export default function Farm() {
+export default function Pianpool() {
     const [loading, setLoading] = useState<boolean>(true);
     const [showWarning, setShowWarning] = useState<boolean>(false);
     const [error, setError] = useState<Error | null>(null);
@@ -63,7 +63,27 @@ export default function Farm() {
 
     useEffect(() => {
         getCurrentValues();
+        setTimeout(refreshPoolInfo,5000);
     }, []); // eslint-disable-line
+
+    function refreshPoolInfo() {
+        var base_url = methods.getValues("pian_url");
+        var user = methods.getValues("username");
+            fetch(base_url+"/legacy_pool/pool_info?user="+user)
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if (document.getElementById('submited') != null) {
+                    document.getElementById('submited').innerHTML= data.data.submited;
+                    document.getElementById('pool_total').innerHTML= data.data.all;
+                    document.getElementById('rewards_total').innerHTML= data.data.xch_to_reward;
+                    setTimeout(refreshPoolInfo,5000);
+                }
+
+            }).catch(rejected => {
+                console.log(rejected);
+            });
+    }
 
     async function handleSaveSettings(values: FormData) {
         const { enable_pool, pian_url, username} = values;
@@ -118,8 +138,30 @@ export default function Farm() {
                 <Button type="submit" autoFocus color="primary">
                     <Trans>Save</Trans>
                 </Button>
+                <Button color="primary" onClick={refreshPoolInfo}>
+                    <Trans>refresh</Trans>
+                </Button>
             </Container>
         </Form>
+
+        <Grid item xs={12}>
+            <Box display="flex">
+                <table>
+                    <tr>
+                        <td>submited</td>
+                        <td id="submited"></td>
+                    </tr>
+                    <tr>
+                        <td>pool total</td>
+                        <td id="pool_total"></td>
+                    </tr>
+                    <tr>
+                        <td>total rewards to split</td>
+                        <td id="rewards_total"></td>
+                    </tr>
+                </table>
+            </Box>
+        </Grid>
 
         </Flex>
         </LayoutMain>
