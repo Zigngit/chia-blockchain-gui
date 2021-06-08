@@ -590,6 +590,10 @@ msgstr "バックアップファイルをここにドラッグ&ドロップ"
 msgid "Edit"
 msgstr "編集"
 
+#: src/components/pianpool/Pianpool.tsx:85
+#~ msgid "Enable Pian Pool"
+#~ msgstr ""
+
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
 msgstr "チアウォレットを復元するには、24語の合言葉を入力してください。"
@@ -856,7 +860,7 @@ msgstr "インターバル"
 msgid "K-Size"
 msgstr "K 値"
 
-#: src/components/dashboard/DashboardSideBar.tsx:27
+#: src/components/dashboard/DashboardSideBar.tsx:28
 msgid "Keys"
 msgstr "鍵"
 
@@ -1102,6 +1106,18 @@ msgstr "保留中の増減"
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "Pending Total Balance"
 msgstr "保留中の全残高"
+
+#: src/components/dashboard/DashboardSideBar.tsx:27
+msgid "PianPool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:91
+msgid "Pianpool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:105
+msgid "Pianpool URL"
+msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:109
 msgid "Please add a trade pair"
@@ -1404,6 +1420,7 @@ msgid "Safe To Skip"
 msgstr "安全にスキップ可能"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:105
+#: src/components/pianpool/Pianpool.tsx:110
 #: src/components/trading/CreateOffer.jsx:160
 msgid "Save"
 msgstr "保存"
@@ -1855,6 +1872,10 @@ msgstr "不明"
 msgid "User Pubkey"
 msgstr "ユーザー公開鍵"
 
+#: src/components/pianpool/Pianpool.tsx:106
+msgid "Username"
+msgstr ""
+
 #: src/components/fullNode/FullNode.jsx:186
 msgid "VDF Sub Slot Iterations"
 msgstr "VDF サブスロット評価回数"
@@ -2037,6 +2058,10 @@ msgstr "高さ:"
 msgid "not synced"
 msgstr "同期されていません"
 
+#: src/components/pianpool/Pianpool.tsx:113
+msgid "refresh"
+msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:17
 #: src/components/wallet/Wallets.tsx:100
 msgid "status:"
@@ -2051,6 +2076,10 @@ msgstr "同期完了"
 #: src/components/wallet/Wallets.tsx:105
 msgid "syncing"
 msgstr "同期中"
+
+#: src/components/pianpool/Pianpool.tsx:12
+#~ msgid "testpianpool"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"

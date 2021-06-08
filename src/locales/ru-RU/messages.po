@@ -762,6 +762,10 @@ msgstr "Перетащите файл резервной копии"
 msgid "Edit"
 msgstr "Правка"
 
+#: src/components/pianpool/Pianpool.tsx:85
+#~ msgid "Enable Pian Pool"
+#~ msgstr ""
+
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
 msgstr "Введите мнемонику из 24 слов, которую вы сохранили, чтобы восстановить свой кошелек Chia."
@@ -1028,7 +1032,7 @@ msgstr "Интервал"
 msgid "K-Size"
 msgstr "K-размер"
 
-#: src/components/dashboard/DashboardSideBar.tsx:27
+#: src/components/dashboard/DashboardSideBar.tsx:28
 msgid "Keys"
 msgstr "Ключи"
 
@@ -1274,6 +1278,18 @@ msgstr "Сдача в ожидании"
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "Pending Total Balance"
 msgstr "Ожидаемый итоговый баланс"
+
+#: src/components/dashboard/DashboardSideBar.tsx:27
+msgid "PianPool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:91
+msgid "Pianpool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:105
+msgid "Pianpool URL"
+msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:109
 msgid "Please add a trade pair"
@@ -1576,6 +1592,7 @@ msgid "Safe To Skip"
 msgstr "Можно пропустить"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:105
+#: src/components/pianpool/Pianpool.tsx:110
 #: src/components/trading/CreateOffer.jsx:160
 msgid "Save"
 msgstr "Сохранить"
@@ -2027,6 +2044,10 @@ msgstr "Неизвестный"
 msgid "User Pubkey"
 msgstr "Пользовательский публичный ключ"
 
+#: src/components/pianpool/Pianpool.tsx:106
+msgid "Username"
+msgstr ""
+
 #: src/components/fullNode/FullNode.jsx:186
 msgid "VDF Sub Slot Iterations"
 msgstr "Итерации VDF суб слота"
@@ -2209,6 +2230,10 @@ msgstr "высота:"
 msgid "not synced"
 msgstr "не синхр."
 
+#: src/components/pianpool/Pianpool.tsx:113
+msgid "refresh"
+msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:17
 #: src/components/wallet/Wallets.tsx:100
 msgid "status:"
@@ -2223,6 +2248,10 @@ msgstr "синхр."
 #: src/components/wallet/Wallets.tsx:105
 msgid "syncing"
 msgstr "синх-ция"
+
+#: src/components/pianpool/Pianpool.tsx:12
+#~ msgid "testpianpool"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"

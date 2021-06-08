@@ -590,6 +590,10 @@ msgstr "Drag 'n drop yer scribble (backup) file"
 msgid "Edit"
 msgstr "Edit"
 
+#: src/components/pianpool/Pianpool.tsx:85
+#~ msgid "Enable Pian Pool"
+#~ msgstr ""
+
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
 msgstr "Give the 24 word mnemonic that ye scribbled down in order t' restore yer Chia treasure chest."
@@ -856,7 +860,7 @@ msgstr "Interval"
 msgid "K-Size"
 msgstr "K-Size"
 
-#: src/components/dashboard/DashboardSideBar.tsx:27
+#: src/components/dashboard/DashboardSideBar.tsx:28
 msgid "Keys"
 msgstr "Treasure maps"
 
@@ -1102,6 +1106,18 @@ msgstr "Change Under Way"
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "Pending Total Balance"
 msgstr "All Yer Under Way Treasure"
+
+#: src/components/dashboard/DashboardSideBar.tsx:27
+msgid "PianPool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:91
+msgid "Pianpool"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:105
+msgid "Pianpool URL"
+msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:109
 msgid "Please add a trade pair"
@@ -1404,6 +1420,7 @@ msgid "Safe To Skip"
 msgstr "Sail on downwind"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:105
+#: src/components/pianpool/Pianpool.tsx:110
 #: src/components/trading/CreateOffer.jsx:160
 msgid "Save"
 msgstr "Save"
@@ -1855,6 +1872,10 @@ msgstr "Unknown"
 msgid "User Pubkey"
 msgstr "Scallywag Pubkey"
 
+#: src/components/pianpool/Pianpool.tsx:106
+msgid "Username"
+msgstr ""
+
 #: src/components/fullNode/FullNode.jsx:186
 msgid "VDF Sub Slot Iterations"
 msgstr "Shots fired"
@@ -2037,6 +2058,10 @@ msgstr "recorded captures:"
 msgid "not synced"
 msgstr "not there yet"
 
+#: src/components/pianpool/Pianpool.tsx:113
+msgid "refresh"
+msgstr ""
+
 #: src/components/wallet/WalletStatusCard.tsx:17
 #: src/components/wallet/Wallets.tsx:100
 msgid "status:"
@@ -2051,6 +2076,10 @@ msgstr "jolly"
 #: src/components/wallet/Wallets.tsx:105
 msgid "syncing"
 msgstr "catchin' up"
+
+#: src/components/pianpool/Pianpool.tsx:12
+#~ msgid "testpianpool"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"
