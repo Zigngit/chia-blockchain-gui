@@ -548,6 +548,10 @@ msgstr "Outils Développeur"
 msgid "Difficulty"
 msgstr "Difficulté"
 
+#: src/components/pianpool/Pianpool.tsx:102
+msgid "Disable"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
 #~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
 #~ msgstr ""
@@ -589,6 +593,10 @@ msgstr "Glisser-déposer votre fichier de sauvegarde"
 #: src/electron/main.tsx:219
 msgid "Edit"
 msgstr "Éditer"
+
+#: src/components/pianpool/Pianpool.tsx:101
+msgid "Enable"
+msgstr ""
 
 #: src/components/pianpool/Pianpool.tsx:85
 #~ msgid "Enable Pian Pool"
@@ -1111,11 +1119,11 @@ msgstr "Solde total en attente"
 msgid "PianPool"
 msgstr ""
 
-#: src/components/pianpool/Pianpool.tsx:91
+#: src/components/pianpool/Pianpool.tsx:93
 msgid "Pianpool"
 msgstr ""
 
-#: src/components/pianpool/Pianpool.tsx:105
+#: src/components/pianpool/Pianpool.tsx:107
 msgid "Pianpool URL"
 msgstr ""
 
@@ -1420,7 +1428,7 @@ msgid "Safe To Skip"
 msgstr "Sûr de passer"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:105
-#: src/components/pianpool/Pianpool.tsx:110
+#: src/components/pianpool/Pianpool.tsx:112
 #: src/components/trading/CreateOffer.jsx:160
 msgid "Save"
 msgstr "Enregistrer"
@@ -1872,7 +1880,7 @@ msgstr "Inconnu"
 msgid "User Pubkey"
 msgstr "Clé publique utilisateur"
 
-#: src/components/pianpool/Pianpool.tsx:106
+#: src/components/pianpool/Pianpool.tsx:108
 msgid "Username"
 msgstr ""
 
@@ -2058,7 +2066,11 @@ msgstr "hauteur:"
 msgid "not synced"
 msgstr "non synchronisé"
 
-#: src/components/pianpool/Pianpool.tsx:113
+#: src/components/pianpool/Pianpool.tsx:128
+msgid "pool total"
+msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:115
 msgid "refresh"
 msgstr ""
 
@@ -2066,6 +2078,10 @@ msgstr ""
 #: src/components/wallet/Wallets.tsx:100
 msgid "status:"
 msgstr "statut:"
+
+#: src/components/pianpool/Pianpool.tsx:124
+msgid "submited"
+msgstr ""
 
 #: src/components/wallet/WalletStatusCard.tsx:20
 #: src/components/wallet/Wallets.tsx:107
@@ -2080,6 +2096,10 @@ msgstr "synchronisation"
 #: src/components/pianpool/Pianpool.tsx:12
 #~ msgid "testpianpool"
 #~ msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:132
+msgid "total rewards to split"
+msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"

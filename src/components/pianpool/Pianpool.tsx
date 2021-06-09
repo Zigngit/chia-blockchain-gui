@@ -117,8 +117,8 @@ export default function Pianpool() {
               variant="outlined"
             >
             <Select name="enable_pool">
-                <MenuItem value="true" > Enable </MenuItem>
-                <MenuItem value="false" > Disable </MenuItem>
+                <MenuItem value="true" > <Trans>Enable</Trans> </MenuItem>
+                <MenuItem value="false" > <Trans>Disable</Trans> </MenuItem>
             </Select>
             </FormControl>
             </Grid>
@@ -148,15 +148,15 @@ export default function Pianpool() {
             <Box display="flex">
                 <table>
                     <tr>
-                        <td>submited</td>
+                        <td><Trans>submited</Trans></td>
                         <td id="submited"></td>
                     </tr>
                     <tr>
-                        <td>pool total</td>
+                        <td><Trans>pool total</Trans></td>
                         <td id="pool_total"></td>
                     </tr>
                     <tr>
-                        <td>total rewards to split</td>
+                        <td><Trans>total rewards to split</Trans></td>
                         <td id="rewards_total"></td>
                     </tr>
                 </table>

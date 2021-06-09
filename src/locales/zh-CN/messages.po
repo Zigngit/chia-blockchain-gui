@@ -548,6 +548,10 @@ msgstr "开发工具"
 msgid "Difficulty"
 msgstr "难度"
 
+#: src/components/pianpool/Pianpool.tsx:102
+msgid "Disable"
+msgstr "关闭"
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
 #~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
 #~ msgstr ""
@@ -589,6 +593,10 @@ msgstr "拖放你的备份文件"
 #: src/electron/main.tsx:219
 msgid "Edit"
 msgstr "编辑"
+
+#: src/components/pianpool/Pianpool.tsx:101
+msgid "Enable"
+msgstr "开启"
 
 #: src/components/pianpool/Pianpool.tsx:85
 #~ msgid "Enable Pian Pool"
@@ -1109,13 +1117,13 @@ msgstr "待处理总余额"
 
 #: src/components/dashboard/DashboardSideBar.tsx:27
 msgid "PianPool"
-msgstr ""
+msgstr "片池"
 
-#: src/components/pianpool/Pianpool.tsx:91
+#: src/components/pianpool/Pianpool.tsx:93
 msgid "Pianpool"
-msgstr ""
+msgstr "片池"
 
-#: src/components/pianpool/Pianpool.tsx:105
+#: src/components/pianpool/Pianpool.tsx:107
 msgid "Pianpool URL"
 msgstr ""
 
@@ -1420,7 +1428,7 @@ msgid "Safe To Skip"
 msgstr "可安全跳过此步骤"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:105
-#: src/components/pianpool/Pianpool.tsx:110
+#: src/components/pianpool/Pianpool.tsx:112
 #: src/components/trading/CreateOffer.jsx:160
 msgid "Save"
 msgstr "保存"
@@ -1872,9 +1880,9 @@ msgstr "未知"
 msgid "User Pubkey"
 msgstr "用户公钥"
 
-#: src/components/pianpool/Pianpool.tsx:106
+#: src/components/pianpool/Pianpool.tsx:108
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: src/components/fullNode/FullNode.jsx:186
 msgid "VDF Sub Slot Iterations"
@@ -2058,14 +2066,22 @@ msgstr "高度："
 msgid "not synced"
 msgstr "未同步"
 
-#: src/components/pianpool/Pianpool.tsx:113
-msgid "refresh"
+#: src/components/pianpool/Pianpool.tsx:128
+msgid "pool total"
 msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:115
+msgid "refresh"
+msgstr "刷新"
 
 #: src/components/wallet/WalletStatusCard.tsx:17
 #: src/components/wallet/Wallets.tsx:100
 msgid "status:"
 msgstr "状态："
+
+#: src/components/pianpool/Pianpool.tsx:124
+msgid "submited"
+msgstr "贡献点数"
 
 #: src/components/wallet/WalletStatusCard.tsx:20
 #: src/components/wallet/Wallets.tsx:107
@@ -2080,6 +2096,10 @@ msgstr "同步中"
 #: src/components/pianpool/Pianpool.tsx:12
 #~ msgid "testpianpool"
 #~ msgstr ""
+
+#: src/components/pianpool/Pianpool.tsx:132
+msgid "total rewards to split"
+msgstr "待分配XCH"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"
@@ -2100,3 +2120,7 @@ msgstr "{currencyCode} 收获的奇亚币总计"
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} 用户交易费用"
+
+#: src/components/pianpool/Pianpool.tsx:107
+#~ msgid "片池地址"
+#~ msgstr ""
