@@ -14,8 +14,12 @@ export default function PlotAddSelectFinalDirectory() {
 
   async function handleSelect() {
     const location = await selectDirectory();
+    var mylocation = location;
     if (location) {
-      setValue('finalLocation', location, { shouldValidate: true });
+      if (location.includes(":\\") && location[location.length-1] !="\\" ) {
+        mylocation = mylocation + "\\"
+      }
+      setValue('finalLocation', mylocation, { shouldValidate: true });
     }
   }
 
