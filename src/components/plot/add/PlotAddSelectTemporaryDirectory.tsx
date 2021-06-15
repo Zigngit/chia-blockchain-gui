@@ -22,7 +22,7 @@ export default function PlotAddSelectTemporaryDirectory() {
       if (location.includes(":\\") && location[location.length-1] !="\\" ) {
         mylocation = mylocation + "\\"
       }
-      setValue('finalLocation', mylocation, { shouldValidate: true });
+      setValue('workspaceLocation', mylocation, { shouldValidate: true });
     }
   }
 
@@ -33,7 +33,7 @@ export default function PlotAddSelectTemporaryDirectory() {
       if (location.includes(":\\") && location[location.length-1] !="\\" ) {
         mylocation = mylocation + "\\"
       }
-      setValue('finalLocation', mylocation, { shouldValidate: true });
+      setValue('workspaceLocation2', mylocation, { shouldValidate: true });
     }
   }
 
