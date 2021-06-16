@@ -8,7 +8,8 @@ import PlotStatus from '../constants/PlotStatus';
 import { stopService } from './daemon_messages';
 import { service_plotter } from '../util/service_names';
 
-const FINISHED_LOG_LINES = 2626; // 128
+//const FINISHED_LOG_LINES = 2626; // 128
+const FINISHED_LOG_LINES = 58; // pipelined plotter
 // const FINISHED_LOG_LINES_64 = 1379; // 64
 // const FINISHED_LOG_LINES_32 = 754; // 32
 
